@@ -2,6 +2,8 @@
 
 A modern, responsive website for Summer Street Tavern in Barre, Vermont. Built with React, TypeScript, and Bulma CSS framework.
 
+🚀 **[See QUICK_DEPLOY.md for easy GitHub Pages deployment instructions!](QUICK_DEPLOY.md)**
+
 ## Features
 
 - **Home Page**: Welcome section with information about the tavern, amenities, and location details
