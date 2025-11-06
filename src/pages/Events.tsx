@@ -196,7 +196,7 @@ const Events = () => {
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-5">
-              <img src="/images/brews-brothers.jpg" alt="Brew's Brothers Band" style={{width: '100%', borderRadius: '12px', boxShadow: '0 4px 16px rgba(0,0,0,0.2)'}} />
+              <img src={import.meta.env.BASE_URL + "images/brews-brothers.jpg"} alt="Brew's Brothers Band" style={{width: '100%', borderRadius: '12px', boxShadow: '0 4px 16px rgba(0,0,0,0.2)'}} />
             </div>
             <div className="column is-7">
               <div className="special-card">

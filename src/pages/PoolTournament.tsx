@@ -22,7 +22,7 @@ const PoolTournament = () => {
           <div className="columns is-centered">
             <div className="column is-8">
               <figure className="image">
-                <img src="/images/pool-table.jpg" alt="Pool table at Summer Street Tavern" style={{borderRadius: '8px'}} />
+                <img src={import.meta.env.BASE_URL + "images/pool-table.jpg"} alt="Pool table at Summer Street Tavern" style={{borderRadius: '8px'}} />
               </figure>
             </div>
           </div>
