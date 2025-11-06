@@ -33,9 +33,9 @@ const Home = () => {
         <div className="container">
           <h2 className="title is-2 has-text-centered mb-5" style={{color: '#c92a2a'}}>Check Out Our Space!</h2>
           <div className="image-gallery">
-            <img src={import.meta.env.BASE_URL + "images/bar-interior.jpg"} alt="Bar interior with karaoke" />
-            <img src={import.meta.env.BASE_URL + "images/interior-sports.jpg"} alt="Sports on big screen" />
-            <img src={import.meta.env.BASE_URL + "images/brews-brothers.jpg"} alt="Brew's Brothers band" />
+            <img src="/summerstreettavern/images/bar-interior.jpg" alt="Bar interior with karaoke" />
+            <img src="/summerstreettavern/images/interior-sports.jpg" alt="Sports on big screen" />
+            <img src="/summerstreettavern/images/brews-brothers.jpg" alt="Brew's Brothers band" />
           </div>
         </div>
       </section>
@@ -97,7 +97,7 @@ const Home = () => {
             <div className="column is-6">
               <div className="box event-card" style={{height: '100%'}}>
                 <div className="content has-text-centered">
-                  <img src={import.meta.env.BASE_URL + "images/wine-wednesday.jpg"} alt="Wine Down Wednesday" style={{width: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: '8px'}} />
+                  <img src="/summerstreettavern/images/wine-wednesday.jpg" alt="Wine Down Wednesday" style={{width: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: '8px'}} />
                   <h3 className="title is-4 mt-4" style={{color: '#c92a2a'}}>Wine Down Wednesday!</h3>
                   <p className="is-size-5">
                     <strong>$5 Any Glass of Wine</strong><br/>
@@ -111,7 +111,7 @@ const Home = () => {
             <div className="column is-6">
               <div className="box event-card" style={{height: '100%'}}>
                 <div className="content has-text-centered">
-                  <img src={import.meta.env.BASE_URL + "images/kandy-beer.jpg"} alt="Kandy Beer" style={{width: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: '8px'}} />
+                  <img src="/summerstreettavern/images/kandy-beer.jpg" alt="Kandy Beer" style={{width: '100%', maxHeight: '300px', objectFit: 'contain', borderRadius: '8px'}} />
                   <h3 className="title is-4 mt-4" style={{color: '#c92a2a'}}>Live Music!</h3>
                   <p className="is-size-5">
                     We host awesome local musicians like <strong>Kandy Beer</strong> every week!
