@@ -53,10 +53,10 @@ const Home = () => {
                 we've got the vibe you're looking for.
               </p>
               <p className="content is-size-5" style={{color: '#212529'}}>
-                <strong>Sports on the big screen?</strong> ✅<br/>
-                <strong>Live music & karaoke?</strong> ✅<br/>
-                <strong>Pool tables?</strong> ✅<br/>
-                <strong>Cold drinks?</strong> ✅✅✅
+                <strong style={{color: '#1a1a1a'}}>Sports on the big screen?</strong> ✅<br/>
+                <strong style={{color: '#1a1a1a'}}>Live music & karaoke?</strong> ✅<br/>
+                <strong style={{color: '#1a1a1a'}}>Pool tables?</strong> ✅<br/>
+                <strong style={{color: '#1a1a1a'}}>Cold drinks?</strong> ✅✅✅
               </p>
               <p className="content is-size-4 has-text-weight-bold" style={{color: '#c92a2a'}}>
                 Sip Happens, Drink Responsibly! 🍺
