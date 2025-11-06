@@ -1,0 +1,132 @@
+:root {
+  --tavern-primary: #ff6b35;
+  --tavern-secondary: #f7931e;
+  --tavern-dark: #1a1a2e;
+  --tavern-accent: #d62828;
+  --tavern-light: #f4f4f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+.hero.is-primary {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero.is-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/images/bar-interior.jpg') center/cover;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.hero.is-primary .hero-body {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar.is-dark {
+  background-color: var(--tavern-dark) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.has-text-gold {
+  color: #ff8c42 !important;
+}
+
+.has-text-orange {
+  color: #d62828 !important;
+}
+
+.has-background-gold {
+  background-color: var(--tavern-primary) !important;
+}
+
+.button.is-primary {
+  background-color: var(--tavern-primary);
+  border-color: transparent;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.button.is-primary:hover {
+  background-color: var(--tavern-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+}
+
+.event-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.box {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.fun-banner {
+  background: linear-gradient(135deg, var(--tavern-primary) 0%, var(--tavern-accent) 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+}
+
+.special-card {
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.special-card .title,
+.special-card .subtitle {
+  color: white !important;
+}
